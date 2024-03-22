@@ -1,0 +1,61 @@
+.container {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+.likes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4px 0 0 10px;
+}
+.thumbs {
+  width: 35px;
+  height: 35px;
+}
+.likeCount {
+  font-family: Jua;
+  font-size: 13px;
+}
+
+.main {
+  margin-left: 10px;
+}
+.ansTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-family: Jua;
+}
+.nickname {
+  margin-left: 10px;
+  font-size: 13px;
+}
+.date {
+  margin-left: 10px;
+  font-size: 10px;
+  color: #aeaeae;
+}
+
+.ansText {
+  margin: 15px 0 15px 10px;
+  font-family: Jua;
+  font-size: 15px;
+}
+
+.ansBtn {
+  margin-left: 7px;
+}
+
+.ansBtn button {
+  width: 75px;
+  height: 30px;
+  border: 2px solid #cacaca;
+  border-radius: 10px;
+
+  font-family: Jua;
+  font-size: 13px;
+  color: #aeaeae;
+}

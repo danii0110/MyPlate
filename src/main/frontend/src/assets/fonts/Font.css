@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Jua;
+  /* font-weight: ; */
+  /* font-style: ; */
+  src: url('./BMJUA_otf.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Besley-Bold';
+  src: url('./Besley-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Besley-Regular';
+  src: url('./Besley-Regular.ttf');
+}

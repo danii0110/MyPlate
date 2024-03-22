@@ -1,16 +1,6 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import Community from './pages/community/Community';
 
 function App() {
-  const [data, setData] = useState('');
-
-  useEffect(() => {
-    axios
-      .get('/api/data')
-      .then((res) => setData(res.data))
-      .catch((err) => console.log(err));
-  }, []);
-
-  return <div>받아온 값 : {data}</div>;
+  return <Community />;
 }
 export default App;
