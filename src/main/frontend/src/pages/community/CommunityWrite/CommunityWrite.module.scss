@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.subCont {
+  display: flex;
+  flex-direction: column;
+  margin: 0 56px 0 56px;
+}
+.titleCont {
+  width: 800px;
+  height: 44px;
+  border: 2px solid #cacaca;
+  padding-left: 25px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: 'Jua';
+  font-size: 20px;
+  ::placeholder {
+    color: #aeaeae;
+  }
+}
+.tagCont {
+  width: 800px;
+  height: 44px;
+  border: 2px solid #cacaca;
+  padding-left: 25px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: 'Jua';
+  font-size: 18px;
+  ::placeholder {
+    color: #aeaeae;
+  }
+}
+.writeCont {
+  width: 800px;
+  height: 398px;
+  border: 2px solid #cacaca;
+  padding-left: 25px;
+  padding-top: 20px;
+  border-radius: 10px;
+  font-family: 'Jua';
+  font-size: 18px;
+  ::placeholder {
+    color: #aeaeae;
+  }
+}
+.btnCont {
+  margin: 21px 10px 0 auto;
+}
+.btn {
+  margin-left: 27px;
+}
