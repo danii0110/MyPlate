@@ -1,16 +1,13 @@
 import styles from './CommunityWrite.module.scss';
-import Header from '../Header';
-import Navbar from '../Navbar';
+
 import Aside from '../Aside';
 
-import RegisterBtnImg from '../../../assets/images/registerBtn.png';
-import CancelBtnImg from '../../../assets/images/cancelBtn.png';
+import RegisterBtnImg from '../../../assets/images/registerBtn.svg';
+import CancelBtnImg from '../../../assets/images/cancelBtn.svg';
 
 function CommunityWrite() {
   return (
     <div className={styles.container}>
-      <Navbar />
-      <Header />
       <div className={styles.main}>
         <div className={styles.subCont}>
           <input className={styles.titleCont} placeholder='제목에 핵심 내용을 요약해보세요.' />

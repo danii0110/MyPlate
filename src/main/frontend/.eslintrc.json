@@ -26,6 +26,7 @@
     "linebreak-style": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off", //import react생략하기 위한 작업(아래설명 참고)
-    "jsx-quotes": ["error", "prefer-single"] //안할 시 Unexpected usage of singlequote 오류 발생
+    "jsx-quotes": ["error", "prefer-single"], //안할 시 Unexpected usage of singlequote 오류 발생
+    "comma-dangle": ["error", "never"] //index.js에서 , 이슈 때문에 추가
   }
 }

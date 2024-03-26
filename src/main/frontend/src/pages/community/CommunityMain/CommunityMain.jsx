@@ -1,9 +1,9 @@
 import styles from './CommunityMain.module.scss';
-import Header from '../Header';
-import Navbar from '../Navbar';
 import Question from './Question';
 import Aside from '../Aside';
-import WriteBtnImg from '../../../assets/images/writeBtn.png';
+import WriteBtnImg from '../../../assets/images/writeBtn.svg';
+import Header from '../../common/Header';
+import Navbar from '../../common/Navbar';
 
 function CommunityMain() {
   return (

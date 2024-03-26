@@ -2,10 +2,10 @@ import styles from './Question.module.scss';
 import LineLong from '../LineLong';
 import QuestTag from '../QuestTag';
 
-import UnResolvedImg from '../../../assets/images/unResolved.png';
-import ThumbsUpOutlineImg from '../../../assets/images/thumbsUpOutline.png';
-import EyeImg from '../../../assets/images/eye.png';
-import ChatImg from '../../../assets/images/chat.png';
+import UnResolvedImg from '../../../assets/images/unResolved.svg';
+import ThumbsUpOutlineImg from '../../../assets/images/thumbsUpOutline.svg';
+import EyeImg from '../../../assets/images/eye.svg';
+import ChatImg from '../../../assets/images/chat.svg';
 
 function Question() {
   return (

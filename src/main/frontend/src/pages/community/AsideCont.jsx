@@ -1,5 +1,5 @@
 import styles from './AsideCont.module.scss';
-import ProfileImg from '../../assets/images/profile.png';
+import ProfileImg from '../../assets/images/profile.svg';
 
 function AsidePerson() {
   return (
@@ -10,7 +10,7 @@ function AsidePerson() {
         궁금해요
       </div>
       <div className={styles.person}>
-        <img src={ProfileImg} alt='profile' />
+        <img src={ProfileImg} alt='profile' className={styles.profileImg} />
         <div className={styles.nickname}>Person1</div>
       </div>
     </div>

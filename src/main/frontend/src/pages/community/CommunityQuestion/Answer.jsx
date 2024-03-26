@@ -1,8 +1,8 @@
 import styles from './Answer.module.scss';
 
-import ProfileImg from '../../../assets/images/profile.png';
-import ThumbsUpGrayImg from '../../../assets/images/thumbsUpGray.png';
-import ThumbsDownGrayImg from '../../../assets/images/thumbsDownGray.png';
+import ProfileImg from '../../../assets/images/profile.svg';
+import ThumbsUpGrayImg from '../../../assets/images/thumbsUpGray.svg';
+import ThumbsDownGrayImg from '../../../assets/images/thumbsDownGray.svg';
 
 function Answer() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './CommunityQuestion.module.scss';
 
-import Navbar from '../Navbar';
-import Header from '../Header';
+import Navbar from '../../common/Navbar';
+import Header from '../../common/Header';
 import Aside from '../Aside';
 
 import LineLong from '../LineLong';
@@ -11,12 +11,12 @@ import QuestTag from '../QuestTag';
 
 import Answer from './Answer';
 
-import UnResolvedImg from '../../../assets/images/unResolved.png';
-import ThumbsUpGrayImg from '../../../assets/images/thumbsUpGray.png';
-import ThumbsDownGrayImg from '../../../assets/images/thumbsDownGray.png';
-import CheckGrayImg from '../../../assets/images/checkGray.png';
+import UnResolvedImg from '../../../assets/images/unResolved.svg';
+import ThumbsUpGrayImg from '../../../assets/images/thumbsUpGray.svg';
+import ThumbsDownGrayImg from '../../../assets/images/thumbsDownGray.svg';
+import CheckGrayImg from '../../../assets/images/checkGray.svg';
 
-function CommunityMain() {
+function CommunityQuestion() {
   return (
     <div className={styles.container}>
       <Navbar />
@@ -69,4 +69,4 @@ function CommunityMain() {
     </div>
   );
 }
-export default CommunityMain;
+export default CommunityQuestion;
