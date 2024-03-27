@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './Community.module.scss';
 
 // import CommunityQuestion from '../community/CommunityQuestion/CommunitQuestion';
-import CommunityMain from './CommunityMain/CommunityMain';
-// import CommunityWrite from '../community/CommunityWrite/CommunityWrite';
+import CommunityMain from '../pages/community/CommunityMain/CommunityMain';
+// import CommunityWrite from '../pages/community/CommunityWrite/CommunityWrite';
 
 function Community() {
   return (

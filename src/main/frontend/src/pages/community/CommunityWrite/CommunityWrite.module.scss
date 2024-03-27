@@ -43,13 +43,52 @@
   border-radius: 10px;
   font-family: 'Jua';
   font-size: 18px;
+  resize: none;
   ::placeholder {
     color: #aeaeae;
   }
 }
 .btnCont {
-  margin: 21px 10px 0 auto;
+  margin: 21px 10px 30px auto;
 }
-.btn {
+.CancelBtn {
+  background-color: #d9d9d9;
+  font-family: 'Jua';
+  font-size: 20px;
+  width: 91px;
+  height: 37px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.CancelBtn:hover {
+  box-shadow: 0 0 0 2px #c3c3c3;
+}
+.CancelBtn:focus {
+  box-shadow: 0 0 0 2px #c3c3c3;
+}
+.CancelBtn:active {
+  background-color: #d8cccc;
+}
+.SubmitBtn {
+  background-color: #ff910f;
+  font-family: 'Jua';
+  font-size: 20px;
+  color: white;
+  width: 91px;
+  height: 37px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
   margin-left: 27px;
+}
+.SubmitBtn:hover {
+  box-shadow: 0 0 0 2px #f18100;
+}
+.SubmitBtn:focus {
+  box-shadow: 0 0 0 2px #f18100;
+}
+.SubmitBtn:active {
+  background-color: #ff941a;
 }

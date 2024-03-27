@@ -1,18 +1,24 @@
+import { useNavigate } from 'react-router-dom';
 import styles from './CommunityMain.module.scss';
 import Question from './Question';
 import Aside from '../Aside';
-import WriteBtnImg from '../../../assets/images/writeBtn.svg';
-import Header from '../../common/Header';
-import Navbar from '../../common/Navbar';
+import CommunityHeader from '../CommunityHeader';
 
 function CommunityMain() {
+  const navigate = useNavigate();
+
+  const onClickWriteBtn = () => {
+    navigate('/community/post'); // TODO: navigate 수정
+  };
+
   return (
     <div className={styles.container}>
-      <Navbar />
-      <Header />
+      <CommunityHeader />
       <div className={styles.subCont}>
         <div className={styles.main}>
-          <img src={WriteBtnImg} alt='unResolved' className={styles.writeBtn} />
+          <button type='button' className={styles.writeBtn} onClick={onClickWriteBtn}>
+            글쓰기
+          </button>
           <Question />
           <Question />
           <Question />

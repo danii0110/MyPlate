@@ -1,6 +1,6 @@
-import styles from './Header.module.scss';
+import styles from './CommunityHeader.module.scss';
 
-function Header() {
+function CommunityHeader() {
   return (
     <div className={styles.container}>
       <div className={styles.title}>묻고 답해요</div>
@@ -9,4 +9,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default CommunityHeader;

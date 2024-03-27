@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './CommunityQuestion.module.scss';
 
-import Navbar from '../../common/Navbar';
-import Header from '../../common/Header';
+import Navbar from '../../layout/Navbar';
+import CommunityHeader from '../CommunityHeader';
 import Aside from '../Aside';
 
 import LineLong from '../LineLong';
@@ -20,7 +20,7 @@ function CommunityQuestion() {
   return (
     <div className={styles.container}>
       <Navbar />
-      <Header />
+      <CommunityHeader />
       <div className={styles.main}>
         <main>
           <div className={styles.quesCont}>
